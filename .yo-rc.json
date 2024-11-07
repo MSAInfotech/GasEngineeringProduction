@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": false,
+    "nodeVersion": "18.20.4",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.12.0"
+    },
+    "version": "1.19.0",
+    "libraryName": "intranet-portal",
+    "libraryId": "8fb1eeb8-748f-4820-a9ca-a7c4d8b6ffbf",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "IntranetPortal",
+    "solutionShortDescription": "IntranetPortal description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

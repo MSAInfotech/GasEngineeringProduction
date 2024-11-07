@@ -1,0 +1,197 @@
+@import '~@fluentui/react/dist/sass/References.scss';
+
+.wpMainBanner {
+  overflow: hidden;
+  //padding: 1em;
+  color: "[theme:bodyText, default: #323130]";
+  color: var(--bodyText);
+
+  &.teams {
+    font-family: $ms-font-family-fallbacks;
+  }
+}
+
+.welcome {
+  text-align: center;
+}
+
+.welcomeImage {
+  width: 100%;
+  max-width: 420px;
+}
+
+.links {
+  a {
+    text-decoration: none;
+    color: "[theme:link, default:#03787c]";
+    color: var(--link); // note: CSS Custom Properties support is limited to modern browsers only
+
+    &:hover {
+      text-decoration: underline;
+      color: "[theme:linkHovered, default: #014446]";
+      color: var(--linkHovered); // note: CSS Custom Properties support is limited to modern browsers only
+    }
+  }
+}
+
+.Banner_img {
+  //background-image: url(img/bg.jpg);
+  // background-position: center;
+  // background-repeat: no-repeat;
+  // padding: 12px 20px 12px 40px;
+  // background-size: cover;
+  // height: 150px;
+  position: relative;
+  height: 230px;
+
+
+}
+
+.User_new {
+  position: absolute;
+  // top: 64%;
+  bottom: 15%;
+  left: 3%;
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.User_new p {
+  color: #FFFFFF;
+  font-family: 'Montserrat';
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  // margin-top: 2%;
+  line-height: 29px;
+  // padding-bottom: 10px;
+}
+
+.User_dec p {
+  left: 3%;
+  position: absolute;
+  // top: 66%;
+  color: #FFFFFF;
+  font-family: 'Montserrat';
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  bottom: 0%;
+  // margin-top: 2%;
+  // padding-bottom: 10px;
+  // text-shadow:1px 1px #000;
+
+}
+
+.User_dec_PET p {
+  left: 3%;
+  position: absolute;
+  // top: 66%;
+  color: #FFFFFF;
+  font-family: 'Montserrat';
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  bottom: 0%;
+  // margin-top: 2%;
+  // padding-bottom: 10px;
+  // text-shadow:1px 1px #000;
+
+}
+
+.Small_logo_img {
+  display: inline-block;
+  position: absolute;
+  // top: 10px;
+  margin-left: 3%;
+}
+
+.User_dec img {
+  height: 230px;
+  //object-fit: cover;
+  width: 100%;
+
+}
+
+.User_dec_PET img {
+  height: 250px;
+  //object-fit: cover;
+  width: 100%;
+
+}
+
+
+div[data-automation-id*='pageHeader'] {
+  display: none;
+}
+
+div[class*='CanvasSection'] {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+div[data-automation-id*='CanvasControl'],
+div[data-automation-id*='CanvasZone'] {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+div[id*='CommentsWrapper'] {
+  display: none;
+}
+
+div[data-automation-id*='CanvasZone-SectionContainer'] {
+  min-width: 100% !important;
+}
+
+.Banner_img::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  // background: rgba(0, 0, 0, 0.5);
+  pointer-events: none;
+}
+
+.bannerTextOverlay {
+  bottom: 0;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: 600;
+  height: 100%;
+  line-height: 18px;
+  opacity: 0;
+  position: absolute;
+  width: 100%;
+}
+
+.bannerTextOverlay p {
+  margin-top: 3%;
+  margin-left: 3%;
+}
+
+// .Banner_img:hover .bannerTextOverlay {
+//   opacity: 0.8;
+//   transition: 0.3s ease;
+// }
+
+// .Banner_img:hover .User_dec_PET p {
+//   display: none;
+// }
+
+.gearIcon {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.Main_Banner_Icons {
+  position: absolute;
+  right: 20px;
+  bottom: 15px;
+}

@@ -1,0 +1,13 @@
+@import '~@fluentui/react/dist/sass/References.scss';
+
+.wpFrequentlyAccessSite {
+  overflow: hidden;
+  display: none;
+  // padding: 1em;
+  color: "[theme:bodyText, default: #323130]";
+  color: var(--bodyText);
+  &.teams {
+    font-family: $ms-font-family-fallbacks;
+  }
+}
+

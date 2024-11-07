@@ -1,0 +1,376 @@
+@import '~@fluentui/react/dist/sass/References.scss';
+
+.wpTrainingTemplatesPolicies {
+  // overflow: hidden;
+  //padding: 1em;
+  color: "[theme:bodyText, default: #323130]";
+  color: var(--bodyText);
+  list-style-type: none;
+  margin: 3% 2%;
+  padding: 0;
+
+  &.teams {
+    font-family: $ms-font-family-fallbacks;
+  }
+}
+
+.welcome {
+  text-align: center;
+}
+
+.welcomeImage {
+  width: 100%;
+  max-width: 420px;
+}
+
+.links {
+  a {
+    text-decoration: none;
+    color: "[theme:link, default:#03787c]";
+    color: var(--link); // note: CSS Custom Properties support is limited to modern browsers only
+
+    &:hover {
+      text-decoration: underline;
+      color: "[theme:linkHovered, default: #014446]";
+      color: var(--linkHovered); // note: CSS Custom Properties support is limited to modern browsers only
+    }
+  }
+}
+
+.divTrainingTemplatesPolicies {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px 1px #ddd;
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  margin: 40px;
+
+}
+
+.divdeliverableTitle {
+  margin-right: 15px;
+  border: 1px solid #A7AFB1;
+  padding: 20px;
+  border-radius: 50px;
+}
+
+.txtdeliverableTitle {
+  width: 100%;
+  box-sizing: border-box;
+  border: 0;
+  border-radius: 10px;
+  font-size: 15px;
+  background-color: #F1F8FF;
+  //background-image: url(img/magnifier.png);
+  background-position: 160px 10px;
+  background-repeat: no-repeat;
+  padding: 12px 40px 12px 10px;
+  background-size: 25px;
+  color: #A2AAAD;
+
+}
+
+.txtdeliverableTitle label {
+  color: #7C7C7C;
+  font-size: 20px;
+  border-bottom: 2px solid;
+  width: auto;
+  max-width: 200px;
+  display: inline-block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.headingFilter {
+  color: #7C7C7C;
+  font-size: 20px;
+  border-bottom: 2px solid;
+  width: auto;
+  max-width: 200px;
+  display: inline-block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.chkboxFilter {
+  border: 2px solid #A7A9AB;
+  padding: 12px;
+  border-radius: 5px;
+}
+
+.chkboxFilter span {
+  position: relative;
+  cursor: pointer;
+  color: #7C7C7C;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+div[data-automation-id*='pageHeader'] {
+  display: none;
+}
+
+div[class*='CanvasSection'] {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+div[data-automation-id*='CanvasControl'],
+div[data-automation-id*='CanvasZone'] {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+div[id*='CommentsWrapper'] {
+  display: none;
+}
+
+div[data-automation-id*='CanvasZone-SectionContainer'] {
+  min-width: 100% !important;
+}
+
+.desingcard {
+  display: flex;
+  flex-direction: row;
+  padding: 10px 10px;
+  margin-top: 10px;
+}
+
+.plusIc {
+  text-align: right;
+}
+
+.Edit_del a {
+  text-decoration: none !important;
+}
+
+.customCellTitle {
+  color: #75787b;
+  font-weight: 700;
+  font-size: 20px;
+  font-family: Montserrat;
+  font-style: normal;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.customCell {
+  color: #75787b;
+  font-weight: 500;
+  font-size: 15px;
+  font-family: Montserrat;
+  font-style: normal;
+}
+
+.filterRight {
+  display: grid;
+  border: none;
+  border-radius: 36px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+  background-color: #f0f0f0;
+  border-radius: 4px;
+  padding: 10px;
+  height: 25%;
+  margin-bottom: 100px;
+}
+
+.paginationButton {
+  background-color: #009bda;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 0 5px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+
+  &:hover {
+    background-color: #005a9e;
+  }
+
+  &:disabled {
+    background-color: #d3d3d3;
+    cursor: not-allowed;
+  }
+}
+
+.paginationInfo {
+  margin: 0 10px;
+  font-size: 16px;
+}
+
+.filterLeft {
+  border: 1px solid #b0b2b3;
+  border-radius: 36px;
+  margin-right: 10px;
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+.filterLable_filter {
+  color: #75787b;
+  display: inline-block;
+  margin-bottom: 15px;
+  max-width: 200px;
+  width: auto;
+  padding: 0;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.filterLable {
+  color: #75787B;
+  border-bottom: 2px solid;
+  width: auto;
+  max-width: 200px;
+  display: inline-block;
+  margin-bottom: 15px;
+  margin-top: 30px;
+  padding: 0;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.SearchnewTextBox {
+  flex: 1;
+}
+
+.SearchnewTextBox div {
+  background-color: #f1f8ff !important;
+  border: 0 !important;
+  border-radius: 10px !important;
+  color: #899FB5 !important;
+  font-size: 15px !important;
+}
+
+.SearchnewTextBox div::after,
+.SearchnewTextBox div:visited,
+.SearchnewTextBox div:active,
+.SearchnewTextBox div:focus {
+  border: 1px solid #009BDA !important;
+  border-radius: 10px !important;
+}
+
+.SearchnewTextBox div div input {
+  width: 100% !important;
+  border: 0 !important;
+  border-radius: 10px !important;
+  font-size: 15px !important;
+  background-color: #F1F8FF !important;
+  color: #899FB5 !important;
+}
+
+.SearchnewTextBox div div {
+  width: 100% !important;
+  border: 0 !important;
+  border-radius: 10px !important;
+  font-size: 15px !important;
+  background-color: #F1F8FF !important;
+  color: #899FB5 !important;
+}
+
+.clearbtn button {
+  // margin-bottom: 20px;
+  text-decoration: none;
+  color: #75787b;
+  border: 1px solid;
+  padding: 3px;
+  //border-radius: 5px;
+  font-size: 14px;
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+  margin-top: 15%;
+  cursor: pointer;
+}
+
+.clearbtn button span span span {
+  font-weight: 400 !important;
+}
+
+
+.wpTrainingTemplatesPolicies div[data-automationid="DetailsList"] {
+  border-radius: 36px;
+  scrollbar-color: #0099E6 #f1f1f1;
+}
+
+
+.wpTrainingTemplatesPolicies div[data-automationid="DetailsHeader"] {
+  padding: 0;
+  height: 100px !important;
+  background-color: rgb(0, 155, 218);
+}
+
+.wpTrainingTemplatesPolicies div[data-automationid="ColumnsHeaderColumn"] {
+  margin-top: 2.5%;
+  text-wrap: balance;
+  line-height: 24px;
+}
+
+.wpTrainingTemplatesPolicies div[data-automationid="ColumnsHeaderColumn"]:hover {
+  background: none;
+  background-color: rgb(0, 155, 218);
+}
+
+.wpTrainingTemplatesPolicies div[data-automationid="ColumnsHeaderColumn"] span {
+  font-size: 21px;
+  font-weight: 700;
+  color: #fff;
+  align-items: center;
+  font-family: 'Montserrat';
+  display: inline-block;
+  vertical-align: -webkit-baseline-middle;
+}
+
+
+.wpTrainingTemplatesPolicies div[data-automationid="DetailsRowCell"] {
+  border-right: 1px solid #A2AAAD;
+  border-bottom: 1px solid #A2AAAD;
+  align-items: center;
+  display: grid;
+  text-align: center;
+  padding: 18px;
+  justify-content: center;
+}
+
+.wpTrainingTemplatesPolicies div[data-automationid="DetailsRow"],
+.wpTrainingTemplatesPolicies div[data-automationid="ListCell"] {
+  height: auto;
+}
+
+// div[data-automationid="DetailsRowCell"] span {
+//   font-family: 'Montserrat';
+//   font-style: normal;
+//   font-weight: 700;
+//   font-size: 15px;
+//   color: #75787B;
+// }
+
+.searchIcon {
+  position: absolute;
+  font-size: 14px;
+  right: 10px;
+  bottom: 10px;
+  color: #899FB5;
+  pointer-events: none;
+}
+
+.searchFilterContainer {
+  position: relative;
+  align-items: center;
+  width: 100%;
+}

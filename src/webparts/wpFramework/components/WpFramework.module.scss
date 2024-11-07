@@ -1,0 +1,108 @@
+@import '~@fluentui/react/dist/sass/References.scss';
+
+.wpFramework {
+  overflow: hidden;
+  padding: 0em 6em 6em 6em;
+  color: var(--bodyText);
+
+  &.teams {
+    font-family: $ms-font-family-fallbacks;
+  }
+}
+
+.frameworkheader {
+  margin-bottom: 0em;
+}
+
+.frameworkheader h2 {
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #004693;
+}
+
+.buttongroup {
+  margin-top: 2em;
+  max-height: 252px;
+  overflow-x: auto;
+}
+
+.textcenter {
+  box-sizing: border-box;
+  /* position: absolute; */
+  width: 25%;
+  height: 70px;
+  float: left;
+  border: 1px solid #009BDA;
+  border-radius: 5px;
+  margin-right: 3em;
+  margin-bottom: 1em;
+  align-items: center;
+}
+
+.textcenter a{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #009BDA;
+  width: 80%;
+  height: 100%;
+  text-decoration: none;
+  align-content: center;
+  text-align: center;
+}
+
+.textcenter div a {
+  color: #009bda;
+  // font-family: Montserrat;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  height: 100%;
+  line-height: 29px;
+  text-decoration: none;
+}
+
+.frameworkbutton {
+  // font-family: 'Montserrat';
+  // font-style: normal;
+  // font-weight: 500;
+  // font-size: 24px;
+  // line-height: 29px;
+  // color: #009BDA;
+  // width: 80%;
+  // height: 100%;
+  // text-decoration: none;
+  text-align: center;
+  align-content: center;
+}
+
+.iconactions .icon {
+  color: #00aaff;
+  cursor: pointer;
+  transition: color 0.3s;
+
+  &:hover {
+    color: #005f7f;
+  }
+}
+
+.buttongroup::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  background-color: #ddd;
+}
+
+.buttongroup::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+.buttongroup::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+  background-color: #009BDA;
+}

@@ -1,0 +1,299 @@
+@import '~@fluentui/react/dist/sass/References.scss';
+
+.wpReportsDashboard {
+  overflow: hidden;
+  margin: 2% 6% 5% 5%;
+  color: "[theme:bodyText, default: #323130]";
+  color: var(--bodyText);
+
+  &.teams {
+    font-family: $ms-font-family-fallbacks;
+  }
+}
+
+
+.Internal_content {
+  width: 100%;
+}
+
+.Img_content {
+  margin-top: 0;
+}
+
+.Photos_cont {
+  width: 100%;
+  margin: 0 auto 20px;
+  // display: flex;
+  // justify-content: center;
+  // flex-direction: row;
+}
+
+// .w_10 {
+//   width:6%;
+// }
+
+.Thumbnails_cont {
+  border-radius: 10px;
+  margin: 2% 4% 1% 0;
+  overflow: hidden;
+  position: relative;
+  transition: transform .3s;
+  width: 19%;
+  float: inline-start;
+}
+
+
+.Thumbnails_cont img {
+  width: 100%;
+  object-fit: cover;
+  object-position: 50% 20%;
+}
+
+.News_oprt ul {
+  list-style-type: none;
+}
+
+// .News_oprt ul li {
+//   float: left;
+//   cursor: pointer;
+//   margin-left: 50%;
+// }
+
+.Edit_del {
+  top: 3%;
+  display: block;
+  right: 3.5%;
+  z-index: 999;
+  position: absolute;
+}
+
+.Edit_del a {
+  color: lightgray;
+}
+
+
+/* General container adjustments */
+.container {
+  padding: 20px;
+}
+
+.searchInput {
+  border: 0;
+  padding: 10px 18px;
+  font-family: 'Montserrat' !important;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  color: #899FB5 !important;
+  background: #F1F8FF;
+  border-radius: 10px;
+  outline: none;
+}
+
+.searchInput:focus {
+  outline: none;
+}
+
+
+// .searchIcon {
+//   position: absolute;
+//   top: 4%;
+//   right: 7%;
+//   pointer-events: none;
+//   font-family: 'Montserrat';
+//   font-style: normal;
+//   font-weight: 500;
+//   font-size: 15px;
+//   line-height: 18px;
+//   color: #899FB5;
+// }
+
+/* Add icon styling */
+.addIcon img {
+  display: block;
+  margin: 0 auto;
+}
+
+.dashboardItem {
+  // background-color: #f8f9fa;
+  // border-radius: 10px;
+  // box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  position: relative;
+  // padding: 10px;
+  margin-right: 14%;
+  text-align: left;
+  /* Ensure text alignment is left for title */
+}
+
+/* Flex container for header */
+.dashboardHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+/* Title styling */
+.dashboardTitle {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #009BDA;
+  margin: 0;
+}
+
+/* Action icons container styling */
+.actionIcons {
+  display: flex;
+  gap: 10px;
+}
+
+.editIcon,
+.deleteIcon {
+  color: #009BDA;
+}
+
+/* Thumbnail styling */
+.thumbnailLink {
+  display: block;
+}
+
+.thumbnailImage {
+  width: 100%;
+  height: 300px;
+}
+
+
+
+.Searchnew {
+  // width: 30% !important;
+  margin: 0;
+}
+
+// .SearchnewTextBox div div input {
+//   width: 100% !important;
+//   border: 0 !important;
+//   border-radius: 10px !important;
+//   background-color: #F1F8FF !important;
+//   font-family: 'Montserrat';
+//   font-style: normal;
+//   font-weight: 500;
+//   font-size: 15px;
+//   line-height: 18px;
+//   color: #899FB5;
+// }
+
+// .SearchnewTextBox div div {
+//   width: 100% !important;
+//   border: 0 !important;
+//   border-radius: 10px !important;
+//   background-color: #F1F8FF !important;
+//   font-family: 'Montserrat';
+//   font-style: normal;
+//   font-weight: 500;
+//   font-size: 15px;
+//   line-height: 18px;
+//   color: #899FB5;
+// }
+
+.SearchWrapper {
+  position: relative;
+}
+
+// .SearchnewTextBox {
+//   width: 100%;
+//   margin-top: 0.5%;
+// }
+
+// .SearchIcon {
+//   position: absolute;
+//   right: 10px;
+//   /* Adjust as needed */
+//   top: 50%;
+//   transform: translateY(-50%);
+//   pointer-events: none;
+//   /* Allows clicking through to the input */
+// }
+
+
+.divReportsTitleSection {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3%;
+}
+
+.ReportsTitle {
+  width: 70%;
+}
+
+.ReportsTitle h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0px;
+  color: #004693;
+}
+
+.searchContainer {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 30%;
+}
+
+.SearchnewTextBox {
+  flex: 1;
+  padding-top: 1%;
+  padding-right: 1%;
+}
+
+.SearchnewTextBox div {
+  background-color: #f1f8ff !important;
+  border: 0 !important;
+  border-radius: 10px !important;
+  color: #a2aaad !important;
+  font-size: 15px !important;
+  width: 100% !important;
+}
+
+.SearchnewTextBox div div input {
+  background-color: #f1f8ff !important;
+  border: 0 !important;
+  border-radius: 10px !important;
+  color: #899fb5;
+  font-family: Montserrat;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px;
+  width: 100% !important; 
+  padding-right: 8%;
+}
+
+// .SearchnewTextBox div div input:focus {
+//   outline: none;
+// }
+
+.SearchnewTextBox div::after,
+.SearchnewTextBox div:visited,
+.SearchnewTextBox div:active,
+.SearchnewTextBox div:focus {
+  border: 1px solid #009BDA !important;
+  border-radius: 10px !important;
+}
+
+.searchIcon {
+  position: absolute;
+  font-size: 14px;
+  right: 4%;
+  color: #75787b;
+  pointer-events: none;
+}
+
+// img.thumbnailImage {
+//   width: 100%;
+//   height: 300px !important;
+// }

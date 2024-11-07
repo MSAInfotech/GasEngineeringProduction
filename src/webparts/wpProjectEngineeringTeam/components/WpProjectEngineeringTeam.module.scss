@@ -1,0 +1,239 @@
+@import '~@fluentui/react/dist/sass/References.scss';
+
+.wpProjectEngineeringTeam {
+  //overflow: hidden;
+  // padding: 1em;
+  color: "[theme:bodyText, default: #323130]";
+  color: var(--bodyText);
+  margin-left: 3.8%;
+  margin-right: 2.5%;
+
+  &.teams {
+    font-family: $ms-font-family-fallbacks;
+  }
+}
+
+.wpProjectEngineeringTeamOtherPages {
+  //overflow: hidden;
+  // padding: 1em;
+  color: "[theme:bodyText, default: #323130]";
+  color: var(--bodyText);
+  margin-left: 3.8%;
+  margin-right: 2.5%;
+  margin-top: 4%;
+
+  &.teams {
+    font-family: $ms-font-family-fallbacks;
+  }
+}
+
+.projectEngineeringTeamDesignation {
+  color: #004693;
+  font-family: 'Montserrat';
+  font-size: 24px;
+  line-height: 29px;
+  font-weight: 700;
+  margin-left: 2%;
+}
+
+.welcome {
+  text-align: center;
+}
+
+.welcomeImage {
+  width: 100%;
+  max-width: 420px;
+}
+
+.links {
+  a {
+    text-decoration: none;
+    color: "[theme:link, default:#03787c]";
+    color: var(--link); // note: CSS Custom Properties support is limited to modern browsers only
+
+    &:hover {
+      text-decoration: underline;
+      color: "[theme:linkHovered, default: #014446]";
+      color: var(--linkHovered); // note: CSS Custom Properties support is limited to modern browsers only
+    }
+  }
+}
+
+.Internal_content {
+  padding: 5px;
+}
+
+.page_content {
+  padding: 32px;
+  background: #fff;
+}
+
+.News_quicklinks_section {
+  display: flex;
+  flex-direction: row;
+}
+
+.News_section {
+  width: 60%;
+  margin-right: 5%;
+}
+
+.Team_pe {
+  display: flex;
+  flex-direction: row;
+  margin-top: 0%;
+}
+
+.Team_lead {
+  flex: 49%;
+  margin-right: 1%;
+  height: 481px;
+  // overflow-x: hidden;
+  margin-top: 7.5%;
+  margin-bottom: 3%;
+  overflow-y: auto;
+  position: relative;
+  padding-bottom: 1%;
+
+}
+
+.Team_lead::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 20px;
+  background-color: #ddd;
+}
+
+.Team_lead::-webkit-scrollbar {
+  width: 8px;
+  // background-color: #ddd;
+}
+
+.Team_lead::-webkit-scrollbar-thumb {
+  border-radius: 20px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+  background-color: #009BDA;
+}
+
+.Project_engineers {
+  width: 49%;
+  margin-left: 1%;
+}
+
+.profile_wrapper {
+  margin-bottom: 20px;
+  margin-left: 2%;
+}
+
+.profile_body {
+  align-items: center;
+  background-color: #fff;
+  border-radius: 10px;
+  display: flex;
+  height: 130px;
+  width: 93%;
+  position: relative;
+  // box-shadow: 0 4px 5px 2px #ddd;
+  // filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  filter: drop-shadow(0 5px 2px rgba(0, 0, 0, .25));
+}
+
+.profile_body_contractors {
+  align-items: center;
+  background-color: #fff;
+  border-radius: 10px;
+  // box-shadow: 0 4px 5px 2px #ddd;
+  // filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  filter: drop-shadow(0 5px 2px rgba(0, 0, 0, .25));
+  display: flex;
+  height: 80px;
+  position: relative;
+  width: 93%;
+}
+
+
+.profile_body img {
+  margin: 15px;
+  height: 50px;
+  border-radius: 100%;
+  vertical-align: middle;
+  float: left;
+  width: 50px;
+}
+
+.profile_body_contractors img {
+  border-radius: 100%;
+  float: left;
+  height: 40px;
+  margin: 15px;
+  vertical-align: middle;
+  width: 40px;
+}
+
+.profile_details {
+  display: inline;
+  float: left;
+  overflow: hidden;
+}
+
+.profile_details_contractors {
+  display: inline;
+  float: left;
+  overflow: hidden;
+}
+
+.profile_details h1 {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  color: #75787B;
+  margin-bottom: 10px;
+  margin-top: 0;
+}
+
+.profile_details_contractors h1 {
+  color: #75787b;
+  margin-bottom: 5px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+}
+
+.description {
+  color: #75787b;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 16px;
+  margin: 0;
+  padding-bottom: .3em;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding-right: 5px;
+}
+
+.designation {
+  color: #75787b;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  margin: 0;
+  padding-bottom: .3em;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+}

@@ -1,0 +1,166 @@
+@import '~@fluentui/react/dist/sass/References.scss';
+
+.wpComponentsLinks {
+  overflow: hidden;
+  //padding: 1em;
+  color: "[theme:bodyText, default: #323130]";
+  color: var(--bodyText);
+
+  &.teams {
+    font-family: $ms-font-family-fallbacks;
+  }
+}
+
+.welcome {
+  text-align: center;
+}
+
+.welcomeImage {
+  width: 100%;
+  max-width: 420px;
+}
+
+.links {
+  a {
+    text-decoration: none;
+    color: "[theme:link, default:#03787c]";
+    color: var(--link); // note: CSS Custom Properties support is limited to modern browsers only
+
+    &:hover {
+      text-decoration: underline;
+      color: "[theme:linkHovered, default: #014446]";
+      color: var(--linkHovered); // note: CSS Custom Properties support is limited to modern browsers only
+    }
+  }
+}
+
+.Internal_content {
+  width: 100%;
+}
+
+.Img_content {
+  margin-top: 0;
+}
+
+.Photos_cont {
+  width: 100%;
+  margin: 0 auto 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+// .w_10 {
+//   width:6%;
+// }
+
+.Thumbnails_cont {
+  // border-radius: 10px;
+  border-radius: 5%;
+  margin: 2% 4.5% 1% 0;
+  overflow: hidden;
+  position: relative;
+  transition: transform .3s;
+  width: 19%;
+  height: 100%;
+}
+
+.Thumbnails_cont:nth-child(5) {
+  margin-right: 0px;
+}
+
+.Black_cont {
+  background-blend-mode: multiply;
+  color: #fff;
+  height: 100%;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  top: 0;
+}
+
+.Title_cont {
+  bottom: 0;
+  font-size: 18px;
+  font-weight: 700;
+  height: 33%;
+  left: 15px;
+  line-height: 22px;
+  width: 88%;
+  z-index: 10;
+  font-family: 'Montserrat';
+  text-align: center;
+  font-style: normal;
+  position: absolute;
+  color: #fff;
+}
+
+.Thumbnails_cont img {
+  width: 100%;
+  object-fit: cover;
+  object-position: 50% 20%;
+}
+
+.Thumbnails_cont:hover .Black_cont,
+.Thumbnails_cont:hover .Title_cont {
+  opacity: .5;
+  background: #000;
+}
+
+
+.Mission {
+  display: none;
+  position: absolute;
+  width: 75%;
+  text-align: center;
+  color: white;
+  font-weight: bolder;
+  top: 30%;
+  font-size: 18px;
+  line-height: 22px;
+  font-family: 'Montserrat';
+  left: 12.5%;
+}
+
+.Hover_Desc {
+  display: none;
+  position: absolute;
+  top: 46%;
+  width: 75%;
+  left: 12.5%;
+  color: white;
+  text-align: left;
+  font-family: 'Montserrat';
+  font-size: 12px;
+  line-height: 15px;
+}
+
+
+.Thumbnails_cont:hover .Mission,
+.Thumbnails_cont:hover .Hover_Desc {
+  display: block;
+}
+
+
+.Thumbnails_cont:hover .Title_cont {
+  display: none;
+}
+
+
+@media only screen and (max-width: 992px) {
+
+  .Photos_cont {
+    width: 100%;
+    margin: 0 auto 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .Thumbnails_cont {
+    width: 100%;
+    object-fit: cover;
+    height: 200px;
+  }
+
+}

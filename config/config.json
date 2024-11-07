@@ -1,0 +1,189 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "wp-quick-links-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/wpQuickLinks/WpQuickLinksWebPart.js",
+          "manifest": "./src/webparts/wpQuickLinks/WpQuickLinksWebPart.manifest.json"
+        }
+      ]
+    },
+    "wp-news-main-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/wpNewsMain/WpNewsMainWebPart.js",
+          "manifest": "./src/webparts/wpNewsMain/WpNewsMainWebPart.manifest.json"
+        }
+      ]
+    },
+    "wp-components-links-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/wpComponentsLinks/WpComponentsLinksWebPart.js",
+          "manifest": "./src/webparts/wpComponentsLinks/WpComponentsLinksWebPart.manifest.json"
+        }
+      ]
+    },
+    "wp-project-engineering-team-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/wpProjectEngineeringTeam/WpProjectEngineeringTeamWebPart.js",
+          "manifest": "./src/webparts/wpProjectEngineeringTeam/WpProjectEngineeringTeamWebPart.manifest.json"
+        }
+      ]
+    },
+    "wp-main-banner-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/wpMainBanner/WpMainBannerWebPart.js",
+          "manifest": "./src/webparts/wpMainBanner/WpMainBannerWebPart.manifest.json"
+        }
+      ]
+    },
+    "wp-interactive-checklist-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/wpInteractiveChecklist/WpInteractiveChecklistWebPart.js",
+          "manifest": "./src/webparts/wpInteractiveChecklist/WpInteractiveChecklistWebPart.manifest.json"
+        }
+      ]
+    },
+    "wp-training-templates-policies-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/wpTrainingTemplatesPolicies/WpTrainingTemplatesPoliciesWebPart.js",
+          "manifest": "./src/webparts/wpTrainingTemplatesPolicies/WpTrainingTemplatesPoliciesWebPart.manifest.json"
+        }
+      ]
+    },
+    "wp-tabs-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/wpTabs/WpTabsWebPart.js",
+          "manifest": "./src/webparts/wpTabs/WpTabsWebPart.manifest.json"
+        }
+      ]
+    },
+    "wp-what-we-do-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/wpWhatWeDo/WpWhatWeDoWebPart.js",
+          "manifest": "./src/webparts/wpWhatWeDo/WpWhatWeDoWebPart.manifest.json"
+        }
+      ]
+    },
+    "wp-top-level-tabs-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/wpTopLevelTabs/WpTopLevelTabsWebPart.js",
+          "manifest": "./src/webparts/wpTopLevelTabs/WpTopLevelTabsWebPart.manifest.json"
+        }
+      ]
+    },
+    "wp-frequently-accessed-sites-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/wpFrequentlyAccessedSites/WpFrequentlyAccessedSitesWebPart.js",
+          "manifest": "./src/webparts/wpFrequentlyAccessedSites/WpFrequentlyAccessedSitesWebPart.manifest.json"
+        }
+      ]
+    },
+    "spfx-intranet-announcements-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/spfxIntranetAnnouncements/SpfxIntranetAnnouncementsWebPart.js",
+          "manifest": "./src/webparts/spfxIntranetAnnouncements/SpfxIntranetAnnouncementsWebPart.manifest.json"
+        }
+      ]
+    },
+    "wp-intranet-announcements-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/wpIntranetAnnouncements/wpIntranetAnnouncementsWebPart.js",
+          "manifest": "./src/webparts/wpIntranetAnnouncements/wpIntranetAnnouncementsWebPart.manifest.json"
+        }
+      ]
+    },
+    "wp-components-links-for-project-eng-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/wpComponentsLinksForProjectEng/WpComponentsLinksForProjectEngWebPart.js",
+          "manifest": "./src/webparts/wpComponentsLinksForProjectEng/WpComponentsLinksForProjectEngWebPart.manifest.json"
+        }
+      ]
+    },
+    "wp-project-engineering-workflow-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/wpProjectEngineeringWorkflow/WpProjectEngineeringWorkflowWebPart.js",
+          "manifest": "./src/webparts/wpProjectEngineeringWorkflow/WpProjectEngineeringWorkflowWebPart.manifest.json"
+        }
+      ]
+    },
+    "wp-framework-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/wpFramework/WpFrameworkWebPart.js",
+          "manifest": "./src/webparts/wpFramework/WpFrameworkWebPart.manifest.json"
+        }
+      ]
+    },
+    "wp-footer-component-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/wpFooterComponent/WpFooterComponentWebPart.js",
+          "manifest": "./src/webparts/wpFooterComponent/WpFooterComponentWebPart.manifest.json"
+        }
+      ]
+    },
+    "wp-other-banner-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/wpOtherBanner/WpOtherBannerWebPart.js",
+          "manifest": "./src/webparts/wpOtherBanner/WpOtherBannerWebPart.manifest.json"
+        }
+      ]
+    },
+    "wp-reports-dashboard-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/wpReportsDashboard/WpReportsDashboardWebPart.js",
+          "manifest": "./src/webparts/wpReportsDashboard/WpReportsDashboardWebPart.manifest.json"
+        }
+      ]
+    },
+    "wp-frequently-access-site-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/wpFrequentlyAccessSite/WpFrequentlyAccessSiteWebPart.js",
+          "manifest": "./src/webparts/wpFrequentlyAccessSite/WpFrequentlyAccessSiteWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "WpQuickLinksWebPartStrings": "lib/webparts/wpQuickLinks/loc/{locale}.js",
+    "WpNewsMainWebPartStrings": "lib/webparts/wpNewsMain/loc/{locale}.js",
+    "WpComponentsLinksWebPartStrings": "lib/webparts/wpComponentsLinks/loc/{locale}.js",
+    "WpProjectEngineeringTeamWebPartStrings": "lib/webparts/wpProjectEngineeringTeam/loc/{locale}.js",
+    "WpMainBannerWebPartStrings": "lib/webparts/wpMainBanner/loc/{locale}.js",
+    "WpInteractiveChecklistWebPartStrings": "lib/webparts/wpInteractiveChecklist/loc/{locale}.js",
+    "WpTrainingTemplatesPoliciesWebPartStrings": "lib/webparts/wpTrainingTemplatesPolicies/loc/{locale}.js",
+    "WpTabsWebPartStrings": "lib/webparts/wpTabs/loc/{locale}.js",
+    "WpWhatWeDoWebPartStrings": "lib/webparts/wpWhatWeDo/loc/{locale}.js",
+    "WpTopLevelTabsWebPartStrings": "lib/webparts/wpTopLevelTabs/loc/{locale}.js",
+    "WpIntranetAnnouncementsWebPartStrings": "lib/webparts/wpIntranetAnnouncements/loc/{locale}.js",
+    "WpFrequentlyAccessedSitesWebPartStrings": "lib/webparts/wpFrequentlyAccessedSites/loc/{locale}.js",
+    "SpfxIntranetAnnouncementsWebPartStrings": "lib/webparts/spfxIntranetAnnouncements/loc/{locale}.js",
+    "WpComponentsLinksForProjectEngWebPartStrings": "lib/webparts/wpComponentsLinksForProjectEng/loc/{locale}.js",
+    "WpProjectEngineeringWorkflowWebPartStrings": "lib/webparts/wpProjectEngineeringWorkflow/loc/{locale}.js",
+    "WpFrameworkWebPartStrings": "lib/webparts/wpFramework/loc/{locale}.js",
+    "WpFooterComponentWebPartStrings": "lib/webparts/wpFooterComponent/loc/{locale}.js",
+    "WpOtherBannerWebPartStrings": "lib/webparts/wpOtherBanner/loc/{locale}.js",
+    "WpReportsDashboardWebPartStrings": "lib/webparts/wpReportsDashboard/loc/{locale}.js",
+    "WpFrequentlyAccessSiteWebPartStrings": "lib/webparts/wpFrequentlyAccessSite/loc/{locale}.js"
+  }
+}
